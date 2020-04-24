@@ -66,7 +66,7 @@ div img {
 
   .col-sm-3,
   .col-sm-6,
-  .col-5-1 {
+  .col-5-1{
     flex: 0 0 44%;
   }
 
@@ -89,7 +89,7 @@ div img {
   }
 
   .col-sm-3-r3,
-  .col-sm-3m,
+  .col-sm-3,
   .col-5-1 {
     flex: 0 0 20%;
   }
@@ -114,5 +114,14 @@ div img {
   .col-5-2{
     flex: 0 0 44%;
     order: 1;
+  }
+/* Reordering exercise for flexbox */
+  .reverse {
+    flex-direction: row-reverse;
+  }
+
+  .reverse [class*="col-"] {
+    margin-left: 0;
+    margin-right: 4%;
   }
 }
